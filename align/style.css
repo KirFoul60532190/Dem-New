@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #f6f9fc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+/*начало 1 блока*/
+.card{
+    margin: 2rem;
+}
+.card__icon{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    width:2rem;
+    height: 2rem;
+    border-radius: 50%;
+    opacity:0.9;
+    background: #1f2c73;
+    box-shadow: 0 .5rem 1.25rem rgba(35, 38, 45, 0.13);;
+    padding: .4rem;
+    margin: .5rem 1rem;
+}
+.card__info{
+    display: inline-block;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, .1);
+    background: #fff;
+    width: 400px;
+    height: 150px;
+}
+.card__heading{
+    padding: 1rem;
+    color: #1f2c73;
+    font-size: 1.25rem;
+}
+.card__desc{
+    padding: 1rem;
+    font-size: smaller;
+}
+/*конец 1 блока*/
+/*начало 2 блока*/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.card__icon--float{
+    float: left;
+
+}
+/*конец 2 блока*/
+/*начало 3 блока*/
+.card__icon,
+.icon--absolute{
+    margin: 0;
+}
+.card__icon--inline-block{
+    display: inline-block;
+
+}
+/*конец 3 блока*/
+
+.card__desc{
+    color: #333;
+}
+.display-table{
+    display: table;
+}
+
+.display-cell{
+    display: table-cell;
+}
+.vertical-middle{
+    vertical-align: middle;
+    display: inline-block;
+}
+.vertical-top{
+    vertical-align: top;
+    display: inline-block;
+}
+.card relative{
+    position: relative;
+}
+.icon--absolute{
+    position: absolute;
+}
+
+.card--centered{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+/*7 блок начало*/
+.icon--1{
+    left:calc(0% - 16px);
+    top:calc(0% - 16px);
+}
+.icon--2{
+
+    left:calc(0% - 16px);
+    top:calc(100% - 16px);
+}
+.icon--3{
+
+    left:calc(100% - 16px);
+    top:calc(100% - 16px);
+}
+.icon--4{
+
+    left:calc(100% - 16px);
+    top:calc(0% - 16px);
+}
+.icon--5{
+    left:calc(50% - 12.5px);
+    top:calc(0% - 16px);
+}
+.icon--6{
+
+    left:calc(0% - 16px);
+    top:calc(50% - 16px);
+}
+.icon--7{
+
+    left:calc(100% - 16px);
+    top:calc(50% - 16px);
+}
+.icon--8{
+
+    left: calc(50% - 16px);
+    top:calc(100% - 16px);
+}
+.icon--9{
+    left: calc(50% - 16px);
+    bottom:calc(50% - 16px);
+}
+/*7 блок конец*/

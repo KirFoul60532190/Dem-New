@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Школьный фитнес и подготовка к ГТО: расписание секций, цены и запись на пробное занятие в Санкт-Петербурге.">
+    <title>Школьный фитнес — секции и ГТО</title>
+    <link rel="stylesheet" href="index2 css.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+
+<header class="header">
+    <div class="container header__container">
+        <a href="#main" class="logo">Fit<span>School</span></a>
+
+        <nav class="nav" id="main-nav" aria-label="Основная навигация">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#main" class="nav__link active" aria-current="page">Главная</a></li>
+                <li class="nav__item"><a href="#schedule" class="nav__link">Расписание</a></li>
+                <li class="nav__item"><a href="#prices" class="nav__link">Цены</a></li>
+                <li class="nav__item"><a href="#form" class="nav__link">Запись</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__actions">
+            <a href="#form" class="btn btn--outline">Записаться</a>
+            <a href="#prices" class="btn btn--primary">Цены</a>
+        </div>
+
+        <button
+            class="header__burger"
+            type="button"
+            aria-label="Открыть меню"
+            aria-controls="main-nav"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<main id="main" class="main-content">
+    <section class="hero-section">
+        <div class="container">
+            <h1>Фитнес и здоровый образ жизни в нашей школе</h1>
+            <p class="subtitle">Укрепляем здоровье, развиваем дисциплину и готовимся к сдаче нормативов ГТО вместе с профессиональными тренерами.</p>
+            <div class="cta-buttons">
+                <a href="#schedule" class="btn btn-primary">Посмотреть расписание</a>
+                <a href="#prices" class="btn btn-secondary">Узнать стоимость</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <h2>Почему это важно для школьника?</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <svg class="feature-icon" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+                        <path fill="#e74c3c" d="M32 56S8 42 8 24a12 12 0 0 1 22-6.5A12 12 0 0 1 56 24c0 18-24 32-24 32z"/>
+                    </svg>
+                    <h3>Физическое здоровье</h3>
+                    <p>Профилактика сколиоза от тяжелых рюкзаков и улучшение зрения за счет смены деятельности.</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+                        <ellipse cx="32" cy="28" rx="18" ry="16" fill="#3498db"/>
+                        <path fill="#2980b9" d="M20 28c2 6 8 10 12 10s10-4 12-10c-2 2-6 3-12 3s-10-1-12-3z"/>
+                        <circle cx="26" cy="24" r="2" fill="#fff"/>
+                        <circle cx="38" cy="24" r="2" fill="#fff"/>
+                    </svg>
+                    <h3>Успеваемость</h3>
+                    <p>Научно доказано: физическая активность улучшает кровоснабжение мозга и повышает концентрацию на уроках.</p>
+                </article>
+                <article class="feature-card">
+                    <svg class="feature-icon" width="64" height="64" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+                        <path fill="#27ae60" d="M32 8 12 16v14c0 14 8 22 20 26 12-4 20-12 20-26V16L32 8z"/>
+                        <path fill="#fff" d="m28 34-6-6 3-3 3 3 9-9 3 3-12 12z"/>
+                    </svg>
+                    <h3>Безопасная среда</h3>
+                    <p>Тренировки проходят в знакомом спортзале школы под присмотром штатных учителей физкультуры.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule-section">
+        <div class="container">
+            <h2>Расписание секций</h2>
+            <table class="schedule-table">
+                <caption class="visually-hidden">Расписание секций по группам, возрасту, дням и времени</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Группа</th>
+                        <th scope="col">Возраст</th>
+                        <th scope="col">Дни недели</th>
+                        <th scope="col">Время</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Начальный уровень</td>
+                        <td>7–10 лет</td>
+                        <td>Понедельник, Среда</td>
+                        <td>15:00 – 16:00</td>
+                    </tr>
+                    <tr>
+                        <td>Средняя группа</td>
+                        <td>11–14 лет</td>
+                        <td>Вторник, Четверг</td>
+                        <td>16:00 – 17:30</td>
+                    </tr>
+                    <tr>
+                        <td>Подготовка к ГТО</td>
+                        <td>15–17 лет</td>
+                        <td>Пятница</td>
+                        <td>17:00 – 18:30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="prices" class="pricing-section">
+        <div class="container">
+            <h2>Стоимость абонемента</h2>
+            <div class="price-cards">
+                <article class="price-card">
+                    <h3>Разовое занятие</h3>
+                    <p class="price">500 ₽</p>
+                    <ul>
+                        <li>Вводное занятие</li>
+                        <li>Без абонемента</li>
+                    </ul>
+                </article>
+                <article class="price-card featured" aria-label="Популярный тариф: Месяц">
+                    <span class="badge">Популярный</span>
+                    <h3>Месяц (8 занятий)</h3>
+                    <p class="price">3 200 ₽</p>
+                    <ul>
+                        <li>2 раза в неделю</li>
+                        <li>Групповые тренировки</li>
+                    </ul>
+                    <a href="#form" class="btn btn-primary">Записаться</a>
+                </article>
+                <article class="price-card">
+                    <h3>Индивидуально</h3>
+                    <p class="price">от 1 500 ₽ / час</p>
+                    <ul>
+                        <li>Персональный план</li>
+                        <li>Отработка нормативов</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="form" class="contact-section">
+        <div class="container">
+            <h2>Запишитесь на бесплатное пробное занятие</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-field">
+                    <label for="child-name">Имя ребенка *</label>
+                    <input
+                        id="child-name"
+                        type="text"
+                        name="name"
+                        autocomplete="name"
+                        placeholder="Анна"
+                        required
+                    >
+                </div>
+                <div class="form-field">
+                    <label for="parent-phone">Телефон *</label>
+                    <input
+                        id="parent-phone"
+                        type="tel"
+                        name="phone"
+                        autocomplete="tel"
+                        placeholder="+7 9XX XXX-XX-XX"
+                        pattern="\+7[\s\-]?\(?9\d{2}\)?[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}"
+                        title="Формат: +7 9XX XXX-XX-XX"
+                        required
+                    >
+                </div>
+                <div class="form-field">
+                    <label for="group">Группа *</label>
+                    <select id="group" name="group" required>
+                        <option value="" disabled selected>Выберите группу</option>
+                        <option value="junior">7–10 лет</option>
+                        <option value="middle">11–14 лет</option>
+                        <option value="gto">15–17 лет</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                <p class="form-hint">После отправки мы свяжемся с вами в WhatsApp или ВКонтакте для подтверждения времени.</p>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer id="contacts" class="site-footer">
+    <div class="container footer-container">
+        <p>&copy; 2026 FitSchool. Все права защищены.</p>
+        <address>г. Санкт-Петербург, ул. Планерная, д. 1</address>
+    </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>

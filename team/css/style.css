@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.team-section{
+  background: #f6f9fc;
+  /*фон браузера*/
+  padding-top: 3rem;
+  /*отсупы сверху*/
+  padding-bottom: 3rem;
+  /*отсупы внизу*/
+}
+
+.heading{
+text-align: center;
+  /*по центру*/
+  margin-bottom: 2rem;
+  /*Отступ снизу: 2rem*/
+  font-size: 2rem;
+  /*Размер шрифта: 2rem*/
+  color: #32325d;
+  /*Цвет текста: #32325d*/
+}
+
+.row::after{
+content: "";
+  display: table;
+  clear: both;
+}
+
+.person__item{
+  padding: 2rem;
+/*Внутренние отступы 2rem*/
+  background: #fff;
+  /*Фон – белый*/
+  border-radius: .5rem;
+  /*Радиус скругления .5rem*/
+  text-align: center;
+  /*Выравнивание текста – по центру*/
+  box-shadow: 0 2px 3px rgba(0,0,0,.1), 0 5px 10px rgba(0,0,0,.1);
+  /*Тень двойная: 0 2px 3px rgba(0,0,0,.1),  0 5px 10px rgba(0,0,0,.1)*/
+}
+.person__img{
+display: block;
+  /*Тип отображения блочный*/
+  width: 100%;
+  /*Ширина изображения 100%*/
+  border-radius: 50%;
+  /*Радиус скругления 50%*/
+  margin-left: auto;
+  /*Горизонтальные отступы автоматические*/
+  margin-right: auto;
+  /*Горизонтальные отступы автоматические*/
+  max-width: 180px;
+  /*Максимальная ширина 180px*/
+}
+.person__name{
+font-size: 1.25rem;
+  /*Размер шрифта 1.25rem*/
+  margin-top: 1rem;
+  /*Внешние вертикальные отступы 1rem*/
+  margin-bottom: 1rem;
+  /*Внешние вертикальные отступы 1rem*/
+  color: #32325d;
+  /*Цвет текста: #32325d*/
+}
+.person__position{
+color: #425366;
+  /*Цвет текста: #425466*/
+  margin: 1rem;
+  /*Внешние вертикальные отступы 1rem*/
+}
+
+.col{
+float: left;
+  /*Сделайте колонки .col – плавающими элементами по левому краю*/
+}
+
+@media screen and (min-width: 0) {
+  .col{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 540px) {
+  .col{
+    width: 75%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .col{
+    width: 75%; }
+}
+@media screen and (min-width: 960px) {
+  .col{
+    width: 50%; }
+}
+@media screen and (min-width: 1400px) {
+  .col {
+    width: 25%;
+  }
+}
